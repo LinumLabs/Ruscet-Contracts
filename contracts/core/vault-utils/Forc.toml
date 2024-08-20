@@ -1,0 +1,11 @@
+[project]
+authors = ["@jasmcaus", "@xburralabs"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "vault-utils"
+
+[dependencies]
+asset_interfaces = { path = "../../assets/interfaces" }
+core_interfaces = { path = "../interfaces" }
+helpers = { path = "../../helpers" }
+interfaces = { path = "../../interfaces" }
